@@ -18,6 +18,9 @@ avro>=1.11.0
 boto3==1.21.0
 psutil>=5.9.0
 ray[serve]==1.10.0
-grpcio>=1.34.0
+grpcio>=1.50.0
 tritonclient==2.18.0
-protobuf~=3.19.0
+protobuf>=3.20.3
+starlette==0.20.4
+fastapi==0.86.0
+
